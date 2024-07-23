@@ -1,5 +1,132 @@
+/* 
+
+Main Color: #00b289
+Shades:
+#b3e8dc
+#99e0d0
+*/
+
 .container {
   max-width: 120rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.container-2 {
+  max-width: 112rem;
+  margin: auto;
+  padding: 0 3.2rem;
+}
+
+/* .container-2 {
+  max-width: 110rem;
+  margin: 0 auto;
   padding: 1.6rem 0;
+} */
+
+.grid {
+  display: grid;
+}
+
+.grid-columns--1 {
+  grid-template-columns: 1.5fr 1fr;
+}
+.grid-columns--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-columns--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* /////////////////////////////////////// */
+/* HEADER */
+/* /////////////////////////////////////// */
+
+header {
+  height: 5.2rem;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.4rem 0;
+}
+
+.logo {
+  flex: 1.5;
+}
+
+.logo img {
+  width: 16rem;
+}
+
+.header-menu {
+  flex: 1.5;
+}
+
+.header-menu-list {
+  display: flex;
+  gap: 4rem;
+}
+
+.header-menu-list li {
+  list-style: none;
+  font-size: 1.8rem;
+}
+
+.header-item-flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-menu-item a:link,
+.header-menu-item a:visited {
+  text-decoration: none;
+}
+.header-menu-item a:hover,
+.header-menu-item a:active {
+  color: #000;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  flex: 1;
+}
+
+.header-btn button {
+  font-size: 1.4rem;
+  padding: 0.8rem 1.6rem;
+  border: 1px solid #00b289;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.header-btn-1 {
+  color: #00b289;
+  background-color: #fff;
+}
+.header-btn-2 {
+  color: #fff;
+  background-color: #00b289;
+}
+
+.header {
+  position: relative;
+}
+
+.background {
+  height: 100rem;
+  width: 100rem;
+  position: absolute;
+  background-color: rgba(230, 247, 243, 0.6);
+  top: -500%;
+  right: -20%;
+  z-index: -1;
+  transform: rotate(65deg);
 }
