@@ -30,7 +30,7 @@ Recreation of the pricing page from the reference.
 
 ## Live Demo
 
-Check out the live demo [here]().
+Check out the live demo [here](https://vasanthrs-dev.github.io/bonsai/).
 
 ## Features
 
