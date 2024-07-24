@@ -125,7 +125,7 @@ header {
   width: 100rem;
   position: absolute;
   background-color: rgba(230, 247, 243, 0.6);
-  top: -500%;
+  top: -550%;
   right: -20%;
   z-index: -1;
   transform: rotate(65deg);
