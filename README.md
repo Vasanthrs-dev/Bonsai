@@ -9,7 +9,6 @@ This is a recreation of the pricing page from Bonsai, created using HTML and CSS
 - [Reference](#overview)
 - [Live Demo](#live-demo)
 - [Features](#features)
-- [Usage](#usage)
 
 ## Overview
 
@@ -36,7 +35,3 @@ Check out the live demo [here](https://vasanthrs-dev.github.io/Bonsai/).
 
 - Desktop version of the Bonsai pricing page
 - HTML and CSS only
-
-## Usage
-
-Feel free to explore the code and adapt it for your own learning projects.
